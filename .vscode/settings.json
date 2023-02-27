@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "PostgreSQL",
+            "name": "moes",
+            "connectString": "postgres://fkreplpy:rP_gz-bnJ2D13XMfAk6U2qAay9Q9n-Cz@floppy.db.elephantsql.com/fkreplpy"
+        }
+    ]
+}

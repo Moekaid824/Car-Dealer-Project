@@ -16,15 +16,27 @@ INSERT INTO sales_person(
 );
 
 INSERT INTO sales_invoice(
-    sale_date
+    sale_date,
+    sales_person_id,
+    car_id,
+    customer_id
 ) VALUES (
-    '2003-16-04' 
+    '2023-01-01',
+    1,
+    3,
+    2
 ),
 (
-    '2016-13-04' 
+    '2013-01-01',
+    2,
+    1,
+    4
 ),
 (
-    '2026-12-04'
+    '2023-02-02',
+    3,
+    2,
+    3
 );
 
 INSERT INTO customer(

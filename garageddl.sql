@@ -16,6 +16,9 @@ CREATE TABLE sales_invoice (
     FOREIGN KEY (customer_id) REFERENCES customer(customer_id)
 );
 
+DROP TABLE sales_invoice;
+DROP TABLE service_ticket
+
 CREATE TABLE customer(
     customer_id SERIAL PRIMARY KEY,
     first_name VARCHAR(50),
